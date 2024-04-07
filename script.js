@@ -22,8 +22,12 @@ if(option == 3){
     console.log("Multiplication results")
     console.log(number1*number2);
 }
-if(option == 4){
+if(option == 4) {
+    if(number2 !==0) {
     console.log("Division results")
     console.log(number1/number2);
+} else {
+    console.log("Error: Division by zero is not allowed.")
+}
 }
 }//end of function
