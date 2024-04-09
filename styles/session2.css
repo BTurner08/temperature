@@ -1,0 +1,20 @@
+body{
+    font-family: Arial;
+}
+
+.btn{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: none;
+}
+
+#students{
+    background-color: #dedede;
+    padding: 20px;
+    width: 50%;
+}
+.item{
+    border: 2px solid black;
+    margin: 10px;
+}
