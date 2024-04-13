@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/temperature.css">
+    <title>Temperature calculator</title>
+</head>
+
+<body>
+    <header class="site-header">
+        <h1>Metric converter</h1>
+        <nav class="menu-nav">
+            <a href="about.html">About</a>
+            <a href="Donate.html">Donate</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <div class="flex">
+        <div class="main-body">
+            <h2>Convert Celsius to Fahrenheit</h2>
+            <button class="btn" onclick="convertTemperature()"><b>Convert your temperature</b></button>
+        </div>
+        <div class="box">
+            <div class="results" id="display">
+            </div>
+        </div>
+    </div>
+    <script src="scripts/converttemperature.js"></script>
+</body>
+
+</html>
